@@ -55,8 +55,8 @@ MCMG is a framework for generating molecules with specific desired properties us
 ## Installation
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/MCMG.git
-cd MCMG
+git clone https://github.com/CSUBioGroup/MCMG-main.git
+cd MCMG-main
 ```
 
 Note: You will need to have RDKit installed. For installation instructions, please refer to the [RDKit documentation](https://www.rdkit.org/docs/Install.html).
