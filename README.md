@@ -2,12 +2,12 @@
 
 ---
 This repository contains the implementation of the Conditional 
-Molecular Generation (MCMG) approach, based on the research for 
+Molecular Generation (MSCMG) approach, based on the research for 
 conditional molecular generation using a combination of pretraining, 
 active learning, and reinforcement learning techniques.
 
 ## Overview
-This study introduces a multi-stage conditional molecular generation model (MCMG) 
+This study introduces a multi-stage conditional molecular generation model (MSCMG) 
 based on the GPT architecture , using the mean and standard deviation of MW, 
 LogP, QED, TPSA, and SA as generation conditions, designed to generate novel 
 molecules with predefined chemical properties. The model employs a three-stage 
@@ -28,7 +28,7 @@ solution for drug discovery workflows requiring balanced innovation and practica
 
 
 ---
-MCMG is a framework for generating molecules with specific desired properties using a three-stage approach:
+MSCMG is a framework for generating molecules with specific desired properties using a three-stage approach:
 1. **Pretraining** - Initial training of the molecular generation model on a large dataset
 2. **Active Learning** - Fine-tuning the model with targeted molecular properties
 3. **Reinforcement Learning** - Optimizing the model for specific molecular characteristics
@@ -38,7 +38,7 @@ MCMG is a framework for generating molecules with specific desired properties us
 
 ```
 .
-├── MCMG/
+├── MSCMG/
 │   ├── Configuration.py
 │   ├── Dataset.py
 │   ├── Generation.py
@@ -63,7 +63,7 @@ Note: You will need to have RDKit installed. For installation instructions, plea
 
 ## Usage
 
-The MCMG framework consists of three stages that should be run in sequence:
+The MSCMG framework consists of three stages that should be run in sequence:
 
 ### 1. Pretraining Stage
 
